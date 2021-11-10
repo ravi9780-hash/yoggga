@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+	
+}
+.nav-link{
+	margin-left:40px;
+	
+}
+#c1{
+	position:relative;
+	background:linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8eW9nYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+	height:700px;
+	width:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	color:white;
+	
+	
+	
+}
+#c2{
+	background:linear-gradient(rgba(232, 126, 4, 0.7),rgba(232, 126, 4, 0.7)),url('https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHlvZ2F8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+	height:700px;
+	width:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	color:white;
+	
+	
+	
+	
+}
+#seb{
+
+	border:none; color:black; background-color:white; height:40px; width:160px;
+	transition:0.4s linear;
+	
+}
+#seb:hover{
+	background-color:black;
+	color:white;
+	box-shadow:1px 1px 1px;
+	
+}
+.carousel-caption{
+	position:absolute;
+	top:40%;
+	left:10%;
+	
+}
+.carousel-caption h1{
+	font-size:72px;
+	letter-spacing:2px;
+	
+}
+.carousel-caption p{
+	font-size:22px;
+	letter-spacing:2px;
+	
+}
+
+#c12{
+	border:1px solid blue;
+	position:;
+	top:1000px;
+	
+}
+#c3{
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url('https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHlvZ2F8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+	height:700px;
+	width:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+
+	
+}
+#ro{
+
+	animation:rot 4s linear reverse infinite;
+	
+}
+
+@keyframes rot{
+	from{transform:rotate(0deg);}
+	to{transform:rotate(360deg);}
+	
+}
+.hc{
+	transition:0.4s ease;
+}
+.hc :hover{
+	box-shadow:1px 1px 1px 1px gray;
+		background:linear-gradient(rgba(232, 126, 4, 0.7),rgba(232, 126, 4, 0.7));
+	
+	
+}

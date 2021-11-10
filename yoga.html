@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+	
+}
+.nav-link{
+	margin-left:40px;
+	
+}
+#c1{
+	position:relative;
+	background:linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8eW9nYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+	height:700px;
+	width:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	color:white;
+	
+	
+	
+}
+#c2{
+	background:linear-gradient(rgba(232, 126, 4, 0.7),rgba(232, 126, 4, 0.7)),url('https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHlvZ2F8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+	height:700px;
+	width:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	color:white;
+	
+	
+	
+	
+}
+#seb{
+
+	border:none; color:black; background-color:white; height:40px; width:160px;
+	transition:0.4s linear;
+	
+}
+#seb:hover{
+	background-color:black;
+	color:white;
+	box-shadow:1px 1px 1px;
+	
+}
+.carousel-caption{
+	position:absolute;
+	top:40%;
+	left:10%;
+	
+}
+.carousel-caption h1{
+	font-size:72px;
+	letter-spacing:2px;
+	
+}
+.carousel-caption p{
+	font-size:22px;
+	letter-spacing:2px;
+	
+}
+
+#c12{
+	border:1px solid blue;
+	position:;
+	top:1000px;
+	
+}
+#c3{
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url('https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHlvZ2F8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+	height:700px;
+	width:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+
+	
+}
+#ro{
+
+	animation:rot 4s linear reverse infinite;
+	
+}
+
+@keyframes rot{
+	from{transform:rotate(0deg);}
+	to{transform:rotate(360deg);}
+	
+}
+.hc{
+	transition:0.4s ease;
+}
+.hc :hover{
+	box-shadow:1px 1px 1px 1px gray;
+		background:linear-gradient(rgba(232, 126, 4, 0.7),rgba(232, 126, 4, 0.7));
+	
+	
+}
+</style>
+    <title>YOGA</title>
+  </head>
+  <body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white px-5" >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="img-fluid rounded-circle" src="https://st2.depositphotos.com/3847593/6311/v/600/depositphotos_63116857-stock-illustration-yoga-logo.jpg" width="60" height="60"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav  ms-auto text-center mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">LINK</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            EVENTS
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">BLOG</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link ">ELEMENT</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+ 
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" id="c1">
+	<div style="text-align:left;"  class="carousel-caption d-none d-md-block" >
+        <h1>GROUP CLASSES</h1>
+        <p style="float:left;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+
+</p>
+		<button style="background:orange;border:none; height:40px; width:160px; color:white;">PARTICIPATE</button>
+      </div>
+
+    </div>
+    <div  style="text-align:center;" class="carousel-item" id="c2">
+	<div class="carousel-caption d-none d-md-block">
+        <h1>Third slide label</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+		<button id="seb" style="">PARTICIPATE</button>
+      </div>
+      
+    </div>
+    <div class="carousel-item"id="c3">
+	<div style="text-align:left;"  class="carousel-caption d-none d-md-block" >
+        <h1>FINEST EXPERTS</h1>
+        <p style="float:left;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+
+</p>
+		<button style="background:orange;border:none; height:40px; width:160px; color:white;">PARTICIPATE</button>
+      </div>
+
+     
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next"   type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon "  aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="container-fluid my-5" >
+<div class="row">
+<div class="col-sm-12  text-center">
+<img src="https://anahata.qodeinteractive.com/wp-content/uploads/2016/12/logo-default.png" data-aos="fade-down"
+ class="img-fluid" id="ro" height="100" width="100">
+<h1 class="h1 my-4" style="word-spacing:8px; letter-spacing:2px;" >YOUR SPIRITUAL GUIDE</h1>
+<p style="word-spacing:2px  p-5;">Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate cursus a sit amet.
+Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate cursus a sit amet.
+</p>
+<img class="img-fluid my-5 border-0" data-aos="zoom-in-right" src="https://i.pinimg.com/originals/1f/d8/5a/1fd85ae73a5390e48edb06228841f82b.jpg">
+
+</div>
+
+</div>
+</div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-6 my-2">
+<iframe width="100%" height="600" src="https://www.youtube.com/embed/dAqQqmaI9vY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="col-sm-6  my-2 text-left p-4 px-4 word-spacing:10px;">
+<h2 class="my-(5) p-5">CREATIVE SOURCES.ALWAYS.</h2>
+<hr class="fw-bold"  style="margin-top:-5px; height:2px;  margin-right:85%; font-weight:bold; margin-left:5%; color:#ffa502;" >
+
+<p class="px-4" align="left" style="opacity:0.6;">Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem niuis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+
+</p>
+<button class="mx-4" style="background:orange;border:none; height:40px; width:160px; color:white;">PARTICIPATE</button>
+
+</div>
+<div class="col-sm-6  my-2 text-left p-4 px-4 word-spacing:10px;">
+<h2 class="my-(5) p-5">CREATIVE SOURCES.ALWAYS.</h2>
+<hr class="fw-bold"  style="margin-top:-5px; height:2px;  margin-right:85%; font-weight:bold; margin-left:5%; color:#ffa502;" >
+
+<p class="px-4" align="left" style="opacity:0.6;">Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem niuis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+
+</p>
+<button class="mx-4" style="background:orange;border:none; height:40px; width:160px; color:white;">PARTICIPATE</button>
+
+</div>
+<div class="col-sm-6 " >
+<iframe width="100%" height="600" src="https://www.youtube.com/embed/tP4TTgt4nb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-12  my-4 text-center " style="background-color:#ffffff; height:auto; ">
+<h1 class="my-5">AMAZING TEACHERS</h1>
+<p class="px-5" style="opacity:0.8;">Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate cursus a sit amet.
+Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate cursus a sit amet.
+</p>
+<div class="container">
+<div class="row">
+
+
+<div class="col-sm-4 border-0 hc" data-aos="flip-right">
+<div class="text-center bg-white border-0 my-5">
+<img src="https://images.unsplash.com/photo-1500048993953-d23a436266cf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBlcnNvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="rounded-circle my-4" height="120" width="120">
+<h4>CLARA WRIGHT</h4>
+<button  class="p3" style="background-color:orange; color:white; border:none; width:100px; "  >Yoga</button>
+<p  class="my-3" align="center"  >Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate cursus a sit amet.
+</p>
+</div>
+</div>
+<div class="col-sm-4 border-0 hc" data-aos="flip-right">
+<div class="text-center bg-white border-0 my-5">
+<img src="https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHBlcnNvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="rounded-circle my-4" height="120" width="120">
+<h4>FELIPCA DORIS</h4>
+<button  class="p3" style="background-color:orange; color:white; border:none; width:100px; transition: 0.3s ease; "  >Yoga</button>
+<p class="my-3" align="center"  >Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate cursus a sit amet.
+</p>
+</div>
+</div>
+<div class="col-sm-4 border-0 hc" data-aos="flip-right">
+<div class="text-center bg-white border-0 my-5">
+<img src="https://images.unsplash.com/photo-1605405748313-a416a1b84491?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHBlcnNvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="rounded-circle my-4" height="120" width="120">
+<h4>ROSE MORGAN</h4>
+<button  class="p3" style="background-color:orange; color:white; border:none; width:100px; "  >MEDITATION</button>
+<p class="my-3" align="center"  >Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate cursus a sit amet.
+</p>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="container-fluid" style="width:100%; bottom:0; position:relative; bottom:0;">
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #3e4551"
+          >
+    <!-- Grid container -->
+    <div class="container-fluid p-4  pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">FOOTER CONTENT</h5>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Molestiae modi cum ipsam ad, illo possimus laborum ut
+              reiciendis obcaecati. Ducimus, quas. Corrupti, pariatur eaque?
+              Reiciendis assumenda iusto sapiente inventore animi?
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="" />
+
+      <!-- Section: CTA -->
+      <section class="">
+        <p class="d-flex justify-content-center align-items-center">
+          <span class="me-3">Register for free</span>
+          <button type="button" class="btn btn-outline-light btn-rounded">
+            Sign up!
+          </button>
+        </p>
+      </section>
+      <!-- Section: CTA -->
+
+  
+
+      <!-- Section: Social media -->
+      <section class="text-center">
+        <!-- Facebook -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-facebook-f"></i
+          ></a>
+
+        <!-- Twitter -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-twitter"></i
+          ></a>
+
+        <!-- Google -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-google"></i
+          ></a>
+
+        <!-- Instagram -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-instagram"></i
+          ></a>
+
+        <!-- Linkedin -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-linkedin-in"></i
+          ></a>
+
+        <!-- Github -->
+        <a
+           class="btn btn-outline-light btn-floating "
+           href="#!"
+           role="button"
+           ><i class="fab fa-github"></i
+          ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center "
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >CONTACT US</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <script>
+        AOS.init({
+
+          offset:200,
+          duration:2000
+        });
+      
+
+    </script>
+  </body>
+</html>
